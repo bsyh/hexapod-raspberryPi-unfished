@@ -4,8 +4,8 @@
 
 hexapod raspberryPi
 
-This is a Hexapod raspberry Pi B4 project, originated with 7697 control board by `SmallpTsai`.
-`SmallpTsai` designed the mechanism and drivered it via 7697. 
+This is a Hexapod raspberry Pi B4 project, originated by `SmallpTsai`.
+`SmallpTsai` designed the hexapod mechanism and drivered it via 7697. 
 In this project we will subtitude 7697 by a Raspberry Pi 4B. 
 
 See demo video: https://youtu.be/NJ7DdDEcq3U & https://youtu.be/To2Y6Mhu-CE to get the idea.
