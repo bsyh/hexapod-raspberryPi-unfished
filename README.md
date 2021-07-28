@@ -36,7 +36,7 @@ If you want to make one hexapod by yourself. You should at least knows how to:
     * Soldering power cord
     * How to use/charge/store `LIPO batteries`
 * Software
-    * Use `RaspbPi OS (Linux)` 
+    * Use `RaspbPi OS (Buster)` 
     * Use `Python 3`
 
 ## Table of Content
