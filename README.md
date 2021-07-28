@@ -1,14 +1,12 @@
 ![banner](files/hexapod_og.jpg)
 
-# hexapod-v2-7697
+# hexapod-raspberryPi
 
-> 中文版本請看 [這裡](README_tw.md)
+hexapod raspberryPi
 
-Hexapod v2 using Linkit 7697
-
-This is a Hexapod project.
-
-You can use any mobile phone (iOS or Android) to control the movement of hexapod (move foreward, backward, etc...).
+This is a Hexapod raspberry Pi B4 project, originated with 7697 control board by `SmallpTsai`.
+`SmallpTsai` designed the mechanism and drivered it via a costumized PCB. 
+In this project we will subtitude the PCB with a Raspberry Pi 4B. 
 
 See demo video: https://youtu.be/NJ7DdDEcq3U & https://youtu.be/To2Y6Mhu-CE to get the idea.
 
@@ -19,12 +17,12 @@ See demo video: https://youtu.be/NJ7DdDEcq3U & https://youtu.be/To2Y6Mhu-CE to g
 
 ## Brief introduction
 
-* **Remote control** is done via `BLE` of `Linkit 7697`
+* **Remote control** is done via `WIFI Socket` or `USB joystick`
 * It has 6 legs, each leg has 3 joint. So there are total `18` **Servo motors** (TowerPro `MG92B`)
-* Linkt 7697 dont have so many **PWM control**, so NXP `PCA9685` x 2 are used to control these servo motors
-* **Power** comes from a `2S Lipo battery (7.4v)`. Also 7 x `mini360 DC-DC` step down voltage regulator are used. One to provide `5V` to Linkit 7697, The other six to provide `6V` to each legs (1 mini360 serve 3 servo)
-* The **body** is 3D printed PLA. I use `Prusa i3 MK2S`, a really good 3D printer.
-* Everything (3D STL, PCB schematic, 7697 source code) are included in the project under **GPL license**, Happy making!
+* Raspberry Pi 4B only privides 1 hardwire **PWM control**, so `PCA9685 control board` x 2 with integrated step-down function are used to control these servo motors through `IIC`.
+* **Power** comes from a `2S Lipo battery (7.4v)`. Also a `mini560 DC-DC` step down voltage regulator are used to power RaspbPi with 5V 5A(max)
+* The **body** is 3D printed with `Somos® Imagine 8000` through a third-part 3D printing service.  **Angle sensor** namely `WIT JY61P` connects to RaspbPi through `IIC` in paralell.
+* Followed by `SmallpTsai`, everything (3D STL, source code) are included in the project under **GPL license**, Happy making!
 
 ## Skill requirement
 
@@ -34,16 +32,14 @@ If you want to make one hexapod by yourself. You should at least knows how to:
     * Use `3D printer` to print a model.
     * Able to adjust 3D model to fit your custom need.
 * Electronics
-    * Make a `PCB` (suggest to use professional PCB services)
-    * Soldering `SMD` component (0805 and TSSOP28)
+    * Soldering power cord
     * How to use/charge/store `LIPO batteries`
 * Software
-    * Use `Linkit 7697` (ie. upload and run any program)
-    * Use `LRemote` to communicate 7697 and your mobile phone
+    * Use `RaspbPi OS (Linux)` 
+    * Use `Python 3`
 
 ## Table of Content
 
 1. [Mechanism](mechanism/) - How to build the body
-1. [Electronics](electronics/) - Circuit explanition
-1. [Software](software/) - The software running on Linkit 7697
+1. [Software](software/) - The software running on RaspbPi (TBD)
 
