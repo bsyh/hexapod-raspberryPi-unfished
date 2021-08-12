@@ -1,4 +1,4 @@
-For some types of 3D printer, there might be a requirement of minimun thickness at the edges that connect surfaces. 
+For some types of 3D printers, there might be a requirement of minimum thickness at the edges that connect surfaces. 
 If you find that components crack due to the thickness issue, try the fixed model in this folder.
 
 `body_center.stl`: redesign a flat surface for angle sensor.
@@ -13,5 +13,5 @@ If you find that components crack due to the thickness issue, try the fixed mode
 `thigh_bottom.stl `: increased thickness near screw hole where 3D printer may fail to print
 
 
-`leg_bottom.STL `: increased thickness screw hole where 3D printer may fail to print
+`leg_bottom.STL `: increased thickness near screw hole where 3D printer may fail to print
 
