@@ -5,7 +5,7 @@
 hexapod raspberryPi
 
 This is a Hexapod raspberry Pi B4 project, originated by `SmallpTsai`.
-`SmallpTsai` designed the hexapod mechanism and drivered it via 7697. 
+`SmallpTsai` designed the hexapod mechanism and drove it via 7697. 
 In this project we will subtitude 7697 by a Raspberry Pi 4B. 
 
 See demo video: https://youtu.be/NJ7DdDEcq3U & https://youtu.be/To2Y6Mhu-CE to get the idea.
@@ -20,7 +20,7 @@ See demo video: https://youtu.be/NJ7DdDEcq3U & https://youtu.be/To2Y6Mhu-CE to g
 * **Remote control** is done via `WIFI Socket` or `USB joystick`
 * It has 6 legs, each leg has 3 joint. So there are total `18` **Servo motors** (TowerPro `MG92B`)
 * `Raspberry Pi 4B` only privides 1 hardwire **PWM control**, so `PCA9685 control board` x 2 with integrated step-down regulator are used to control these servo motors through `IIC`.
-* **Power** comes from a `2S Lipo battery (7.4v)`. Also a `mini560 DC-DC` step down voltage regulator are used to power RaspbPi with 5V 5A(max)
+* **Power** comes from a `3S Lipo battery (11.1v)`. Also 3 `mini560 DC-DC` step down voltage regulator are used, one to power RaspbPi with 5V 5A(max), the other 2 are to power PCA9685 control boards.
 * The **body** is 3D printed with `Somos® Imagine 8000` through a third-part 3D printing service.  
 * **Angle sensor** `WIT JY61P` connects to RaspbPi through `IIC` in paralell.
 * Followed by `SmallpTsai`, everything (3D STL, source code) are included in the project under **GPL license**.
