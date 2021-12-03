@@ -1,4 +1,3 @@
-# This project is UNFISHED!
 
 ![banner](files/hexapod_og.jpg)
 
