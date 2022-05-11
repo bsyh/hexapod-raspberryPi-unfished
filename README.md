@@ -43,5 +43,5 @@ If you want to make one hexapod by yourself. You should at least know how to:
 ## Table of Content
 
 1. [Mechanism](mechanism/) - How to build the body
-1. [Software](software/) - The software running on RaspbPi (TBD)
+1. [Software](software/) - The software running on RaspbPi
 
