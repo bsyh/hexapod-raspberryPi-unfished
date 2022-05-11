@@ -49,21 +49,21 @@ If you want to make one hexapod by yourself. You should at least know how to:
 
 
 https://user-images.githubusercontent.com/45125740/167921903-36e5d80f-a7ff-4572-bfeb-e2b2ff5b1781.mp4
+
 https://user-images.githubusercontent.com/45125740/167921833-c19824d3-37fa-4d62-b973-f710111ed2f8.mp4
+
 leg testing
 
-
-
 https://user-images.githubusercontent.com/45125740/167921867-10a3a2ef-41d6-4d2f-a60c-628305d9845e.mp4
+
 Angle sensor
 
-
 https://user-images.githubusercontent.com/45125740/167920268-071bab98-9ca7-449c-ad2f-77d9b62e90ba.mp4
+
 complete spider
 
-
-
 https://user-images.githubusercontent.com/45125740/167921947-8c45f19b-c2c6-4d83-9618-dd7769f0ed23.mp4
+
 walking mode
 
 
