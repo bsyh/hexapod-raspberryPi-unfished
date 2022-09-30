@@ -1,6 +1,4 @@
 
-![banner](files/hexapod_og.jpg)
-
 # hexapod-raspberryPi
 
 hexapod raspberry pi
