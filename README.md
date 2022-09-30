@@ -4,7 +4,7 @@
 hexapod raspberry pi
 
 This is a Hexapod raspberry Pi B4 project, originated by `SmallpTsai`.
-`SmallpTsai` designed the hexapod mechanism and drove it via 7697. 
+`SmallpTsai` drove it via 7697. 
 In this project, we will substitute 7697 with a Raspberry Pi 4B. 
 
 ## Brief introduction
