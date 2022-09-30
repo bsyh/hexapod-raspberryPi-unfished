@@ -1,14 +1,6 @@
 #!/usr/bin/env python2
 # -*- coding: utf-8 -*-
-"""
-* @par Copyright (C): 2010-2020, hunan CLB Tech
-* @file         Basic_movement
-* @version      V2.0
-* @details
-* @par History
 
-@author: zhulin
-"""
 from LOBOROBOT import LOBOROBOT  # 载入机器人库
 import  RPi.GPIO as GPIO
 import os
