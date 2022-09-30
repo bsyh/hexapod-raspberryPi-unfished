@@ -9,13 +9,6 @@ This is a Hexapod raspberry Pi B4 project, originated by `SmallpTsai`.
 `SmallpTsai` designed the hexapod mechanism and drove it via 7697. 
 In this project, we will substitute 7697 with a Raspberry Pi 4B. 
 
-See demo video: https://youtu.be/NJ7DdDEcq3U & https://youtu.be/To2Y6Mhu-CE to get the idea.
-
-<a href='https://youtu.be/NJ7DdDEcq3U'><img src='http://img.youtube.com/vi/NJ7DdDEcq3U/mqdefault.jpg'/></a>
-<a href='https://youtu.be/To2Y6Mhu-CE'><img src='http://img.youtube.com/vi/To2Y6Mhu-CE/mqdefault.jpg'/></a>
-
-> More videos can be found at https://smallptsai.github.io/hexapod-web/
-
 ## Brief introduction
 
 * **Remote control** is done via `WIFI Socket` or `USB joystick`
