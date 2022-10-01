@@ -5,7 +5,7 @@ hexapod raspberry pi
 
 This is a Hexapod raspberry Pi B4 project, originated by `SmallpTsai`.
 `SmallpTsai` drove it via 7697. 
-In this project, we will port the driver to Raspberry Pi 4B and re-design some hardware. 
+In this project, we will port the driver to Raspberry Pi 4B and re-design hardware components. 
 
 ## Brief introduction
 
